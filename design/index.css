@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    text-align: center;
+    margin: 2rem;
+    font-size: 5rem;
+}
+
+body{
+    background-color: rgb(181, 199, 200);
+}
+
+.outer-container{
+    width: 40%;
+    min-width: 550px;
+    /* max-width: 90vh; */
+    margin: 2% auto;
+}
+
+.othello-container{
+    width: 100%;
+    /* border: 2px solid black; */
+    float: left;
+}
+
+.othello-square{
+    width: 12%;
+    padding-bottom: 12%;
+    background-color: green;
+    float: left;
+    margin: 0.25%;
+    border-radius: 2px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+}
+
+.othello-square:hover{
+    background-color: rgb(0, 158, 0);
+}
+
+.disk{
+    width: 75%;
+    padding-bottom: 75%;
+    border-radius: 50%;
+    margin: 12.5% auto -87.5% auto;
+    position: relative;
+}
+
+.black{
+    background-color: black;
+}
+
+.white{
+    background-color: white;
+}
