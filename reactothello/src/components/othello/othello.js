@@ -86,7 +86,7 @@ export default class Othello extends React.Component{
 
         this.setState({board: this.state.board, turn: (this.state.turn+1) % 2}, 
         () => {
-            this.ioWaiting = false;
+            //this.ioWaiting = false;
             this.goNextState();
         });
     }
